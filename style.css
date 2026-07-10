@@ -63,3 +63,9 @@ h1 {
     margin-top: 20px;
     box-shadow: 0 4px 15px rgba(0, 242, 254, 0.4);
 }
+/* Größe des Logos anpassen */
+.logo-img {
+    height: 50px; /* Ändere die Zahl (z.B. 40px oder 60px), bis es dir gefällt */
+    width: auto;  /* Behält das richtige Seitenverhältnis bei */
+    display: block;
+}
