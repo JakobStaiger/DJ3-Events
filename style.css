@@ -1,0 +1,65 @@
+/* Grunddesign für die ganze Seite */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121214; /* Dunkler Hintergrund */
+    color: #f5f5f7;           /* Helle Schrift */
+    margin: 0;
+    padding: 0;
+}
+
+/* Die Kopfzeile / Navigation */
+header {
+    background-color: #1a1a1e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #00f2fe; /* Neon-Linie */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00f2fe;
+}
+
+nav a {
+    color: #f5f5f7;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00f2fe; /* Farbe ändert sich beim Drüberfahren */
+}
+
+/* Hauptinhalt */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    color: #fff;
+}
+
+/* Ein stylischer Button für den Verleih */
+.cta-button {
+    background: linear-gradient(45deg, #00f2fe, #4facfe);
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0, 242, 254, 0.4);
+}
