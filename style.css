@@ -97,5 +97,5 @@ h1 {
 
 /* Spezifische Markenfarben */
 .whatsapp {
-    background-color: #17ca17;
+    background: linear-gradient(45deg, #25d366 0%, #128c7e 25%, #075e54 50%, #00a884 75%, #00755e 100%);
 }
