@@ -48,6 +48,11 @@ h1 {
     color: #fff;
 }
 
+h2 {
+    font-size: 36px;
+    color: #fff;
+}
+
 /* Ein stylischer Button für den Verleih */
 .cta-button {
     background: linear-gradient(45deg, #00f2fe, #4facfe);
