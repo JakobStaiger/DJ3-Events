@@ -109,6 +109,24 @@ h2 {
     background-color: #1DB954;
 }
 
+/* Richtet Logo und Text waagerecht aus und macht Abstand dazwischen */
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Abstand zwischen Icon und Text */
+    padding: 12px 25px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s, filter 0.2s;
+}
+
+/* Macht die Logos minimal größer für eine bessere Optik */
+.social-btn i {
+    font-size: 20px;
+}
+
 /* Artikel-Styling */
 .story-article {
     background-color: #1a1a1e;
