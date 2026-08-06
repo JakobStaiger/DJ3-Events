@@ -155,6 +155,7 @@ h2 {
 .photo-box {
     flex: 1;
     min-width: 250px;
+    max-width: 500px; /* Damit die Boxen nicht zu groß werden */
     background-color: #25252a;
     padding: 10px;
     border-radius: 8px;
