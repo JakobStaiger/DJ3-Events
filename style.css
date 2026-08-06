@@ -41,7 +41,13 @@ main {
     margin: 40px auto;
     padding: 0 20px;
     text-align: left;
-    align-items: flex-start; /* Verhindert, dass die Buttons sich vertikal strecken */
+}
+
+/* Der Container, der das Bild und die Buttons hält */
+main > div { /* Dies zielt auf das DIV direkt im Hauptbereich, passe die Klasse an, falls du eine hast */
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Zentriert die Gruppe auf der Seite */
 }
 
 h1 {
