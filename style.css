@@ -139,10 +139,10 @@ h2 {
 /* Artikel-Styling */
 .story-article {
     background-color: #1a1a1e;
-    padding: 30px;
+    padding: 20px;
     border-radius: 12px;
     text-align: left; /* Text linksbündig für bessere Lesbarkeit */
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
@@ -164,7 +164,6 @@ h2 {
 .photo-box {
     flex: 1;
     min-width: 250px;
-    max-width: 500px; /* Damit die Boxen nicht zu groß werden */
     background-color: #25252a;
     padding: 10px;
     border-radius: 8px;
@@ -184,7 +183,7 @@ h2 {
     margin: 8px 0 0 0;
 }
 
-/* Styling für das große Startseiten-Foto */
+/* Styling für das Startseiten-Foto */
 .hero-img {
     max-width: 450px; /* Maximale Breite – passe die Zahl an, bis es perfekt sitzt */
     width: 100%;      /* Staucht das Bild auf kleineren Bildschirmen (Handy) automatisch */
