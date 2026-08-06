@@ -47,7 +47,8 @@ main {
 main > div { /* Dies zielt auf das DIV direkt im Hauptbereich, passe die Klasse an, falls du eine hast */
     display: flex;
     gap: 20px;
-    justify-content: center; /* Zentriert die Gruppe auf der Seite */
+    justify-content: left; /* Zeigt die Elemente linksbündig an */
+    align-items: flex-start; /* Verhindert, dass die Buttons sich vertikal strecken */
 }
 
 h1 {
@@ -181,4 +182,13 @@ h2 {
     color: #ccc;
     text-align: center;
     margin: 8px 0 0 0;
+}
+
+/* Styling für das große Startseiten-Foto */
+.hero-img {
+    max-width: 450px; /* Maximale Breite – passe die Zahl an, bis es perfekt sitzt */
+    width: 100%;      /* Staucht das Bild auf kleineren Bildschirmen (Handy) automatisch */
+    height: auto;     /* Behält das richtige Seitenverhältnis bei */
+    border-radius: 12px; /* Gibt dem Bild schöne abgerundete Ecken */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Dezenter Schatten für den Look */
 }
