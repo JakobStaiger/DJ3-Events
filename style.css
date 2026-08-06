@@ -41,6 +41,7 @@ main {
     margin: 40px auto;
     padding: 0 20px;
     text-align: left;
+    align-items: flex-start; /* Verhindert, dass die Buttons sich vertikal strecken */
 }
 
 h1 {
@@ -67,7 +68,6 @@ h2 {
     display: inline-block;
     margin-top: 20px;
     box-shadow: 0 4px 15px rgba(0, 242, 254, 0.4);
-    align-items: flex-start; /* Verhindert, dass die Buttons sich vertikal strecken */
     height: auto;
 }
 
