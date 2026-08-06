@@ -81,7 +81,7 @@ h2 {
 .social-container {
     margin-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 15px;
     flex-wrap: wrap;
 }
