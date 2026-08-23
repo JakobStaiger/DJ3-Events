@@ -118,6 +118,10 @@ h2 {
     background-color: #1DB954;
 }
 
+.paypal {
+    background-color: #003087;
+}
+
 /* Richtet Logo und Text waagerecht aus und macht Abstand dazwischen */
 .social-btn {
     display: inline-flex;
