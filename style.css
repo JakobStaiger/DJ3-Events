@@ -122,6 +122,11 @@ h2 {
     background-color: #003087;
 }
 
+.kleinanzeigen {
+    background-color: #86B817;
+    color: #000; /* Schwarz für bessere Lesbarkeit auf Hellgrün */
+}
+
 /* Richtet Logo und Text waagerecht aus und macht Abstand dazwischen */
 .social-btn {
     display: inline-flex;
