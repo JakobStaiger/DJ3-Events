@@ -127,6 +127,10 @@ h2 {
     color: #000; /* Schwarz für bessere Lesbarkeit auf Hellgrün */
 }
 
+.github {
+    background-color: #333; /* Dunkelgrau für GitHub */
+}
+
 /* Richtet Logo und Text waagerecht aus und macht Abstand dazwischen */
 .social-btn {
     display: inline-flex;
