@@ -7,34 +7,6 @@ body {
     padding: 0;
 }
 
-/* Die Kopfzeile / Navigation */
-header {
-    background-color: #1a1a1e;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid #00f2fe; /* Neon-Linie */
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #00f2fe;
-}
-
-nav a {
-    color: #f5f5f7;
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: 500;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #00f2fe; /* Farbe ändert sich beim Drüberfahren */
-}
-
 /* Hauptinhalt */
 main {
     max-width: 1200px;
@@ -230,7 +202,7 @@ h2 {
     background: rgba(5, 9, 15, 0.92);
     backdrop-filter: blur(15px);
 
-    border-bottom: 1px solid rgba(0, 220, 220, 0.12);
+    border-bottom: 3px solid rgba(0, 220, 220, 0.12);
 }
 
 .site-header .logo img {
