@@ -1,40 +1,160 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Party Crew & Equipment Verleih</title>
+
+    <title>DJ3 Events – Wir machen die Party!</title>
+
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="DJ3Logo" class="logo-img">
-        </div>
+
+<body class="home-page">
+
+    <header class="site-header">
+
+        <a href="index.html" class="logo">
+            <img src="logo.png" alt="DJ3 Events Logo">
+        </a>
+
         <nav>
-            <a href="index.html">Start</a>
+            <a href="index.html" class="active">Start</a>
             <a href="aktuell.html">Aktuell</a>
             <a href="shop.html">Shop</a>
             <a href="archiv.html">Archiv</a>
             <a href="kontakt.html">Kontakt</a>
         </nav>
-    </header>
-    
-    <main>
-        <h1>Wir machen die Party!</h1>
-        <p>Egal ob du Equipment suchst, oder Ausschau nach einer Party hältst– bei uns wirst du fündig!</p>
 
-            <!-- Buttons und Bild -->
-            <div class="article-gallery">
-                <a href="aktuell.html" class="cta-button">Zu den Veranstaltungen</a>
-                <a href="equipment.html" class="cta-button">Equipment leihen</a>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <!-- Dekorative Farbflächen -->
+            <div class="glow glow-one"></div>
+            <div class="glow glow-two"></div>
+
+            <!-- Geschwungene Neonlinien -->
+            <svg class="wave-lines"
+                 viewBox="0 0 1000 650"
+                 preserveAspectRatio="xMidYMid slice"
+                 aria-hidden="true">
+
+                <defs>
+                    <linearGradient id="waveGradient"
+                        x1="0%" y1="0%" x2="100%" y2="100%">
+
+                        <stop offset="0%" stop-color="#00f0d0"/>
+                        <stop offset="50%" stop-color="#168cff"/>
+                        <stop offset="100%" stop-color="#873cff"/>
+
+                    </linearGradient>
+                </defs>
+
+                <g fill="none"
+                   stroke="url(#waveGradient)"
+                   stroke-width="2"
+                   opacity="0.65">
+
+                    <path d="M 520 30 C 700 0 760 170 980 120"/>
+                    <path d="M 500 50 C 680 20 750 190 1000 140"/>
+                    <path d="M 480 70 C 660 40 740 210 1020 160"/>
+                    <path d="M 460 90 C 640 60 730 230 1040 180"/>
+                    <path d="M 440 110 C 620 80 720 250 1060 200"/>
+                    <path d="M 420 130 C 600 100 710 270 1080 220"/>
+                    <path d="M 400 150 C 580 120 700 290 1100 240"/>
+                    <path d="M 380 170 C 560 140 690 310 1120 260"/>
+                    <path d="M 360 190 C 540 160 680 330 1140 280"/>
+                    <path d="M 340 210 C 520 180 670 350 1160 300"/>
+
+                    <path d="M -100 570 C 100 400 180 700 360 500"/>
+                    <path d="M -100 590 C 100 420 180 720 360 520"/>
+                    <path d="M -100 610 C 100 440 180 740 360 540"/>
+                    <path d="M -100 630 C 100 460 180 760 360 560"/>
+                    <path d="M -100 650 C 100 480 180 780 360 580"/>
+
+                </g>
+
+            </svg>
+
+
+            <div class="hero-content">
+
+                <div class="hero-label">
+                    <span class="status-dot"></span>
+                    PARTY CREW & EQUIPMENT VERLEIH
+                </div>
+
+                <h1>
+                    Wir machen<br>
+                    die <span>Party!</span>
+                </h1>
+
+                <p class="hero-description">
+                    Egal ob du Equipment suchst oder Ausschau
+                    nach einer Party hältst – bei uns wirst du
+                    fündig! Wir bringen Sound, Licht und
+                    Stimmung auf deine Veranstaltung.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="aktuell.html" class="cta-button">
+                        Veranstaltungen
+                        <span>→</span>
+                    </a>
+
+                    <a href="equipment.html" class="cta-button secondary">
+                        Equipment leihen
+                    </a>
+
+                </div>
+
+                <div class="hero-footer">
+                    <span>DJ3 EVENTS</span>
+                    <span>•</span>
+                    <span>SOUND. LIGHT. PARTY.</span>
+                </div>
+
+            </div>
+
+
+            <!-- Hauptbild -->
+            <div class="hero-visual">
+
+                <div class="image-glow"></div>
 
                 <div class="photo-card">
-                    <img src="party 0.3.jpg" alt="Party Impressionen" class="hero-img">
+
+                    <img
+                        src="party 0.3.jpg"
+                        alt="DJ3 Events – Party Impressionen"
+                        class="hero-img">
+
+                    <div class="image-caption">
+                        <span class="caption-dot"></span>
+                        <span>WE MAKE YOUR EVENT</span>
+                    </div>
+
                 </div>
+
+                <div class="floating-text">
+                    <span>DJ3</span>
+                    <small>EVENTS</small>
+                </div>
+
             </div>
-        
+
+
+            <!-- Farbverlauf am unteren Rand -->
+            <div class="bottom-wave"></div>
+
+        </section>
+
     </main>
 
 </body>
