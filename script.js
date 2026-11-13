@@ -14,7 +14,7 @@ const updateCountdown = setInterval(function() {
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     document.getElementById("countdown").innerHTML = 
-      days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+      days + "Tage " + hours + "Stunden " + minutes + " Minuten " + seconds + "Sekunden bis zur Party!";
 
   } else if (now >= partyStart && now < partyEnd) {
     document.getElementById("countdown").innerHTML = "PARTY LÄUFT!";
