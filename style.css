@@ -206,22 +206,18 @@ h2 {
 }
 
 /* =========================================
-   DJ3 EVENTS – MODERNE STARTSEITE
+   DJ3 EVENTS – GLOBAL DESIGN
    ========================================= */
 
-.home-page {
-    margin: 0;
-    background: #05090f;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-}
 
-/* HEADER */
+/* =========================================
+   1. GLOBALER HEADER
+   Gilt für ALLE Unterseiten
+   ========================================= */
 
-.home-page .site-header {
+.site-header {
     position: relative;
-    z-index: 10;
+    z-index: 100;
 
     width: 100%;
     box-sizing: border-box;
@@ -231,23 +227,25 @@ h2 {
     align-items: center;
     justify-content: space-between;
 
-    background: rgba(5, 9, 15, 0.85);
+    background: rgba(5, 9, 15, 0.92);
     backdrop-filter: blur(15px);
+
+    border-bottom: 1px solid rgba(0, 220, 220, 0.12);
 }
 
-.home-page .logo img {
+.site-header .logo img {
     width: 95px;
     height: auto;
     display: block;
 }
 
-.home-page nav {
+.site-header nav {
     display: flex;
     align-items: center;
     gap: 35px;
 }
 
-.home-page nav a {
+.site-header nav a {
     color: #d5e2eb;
     text-decoration: none;
     font-size: 16px;
@@ -256,13 +254,23 @@ h2 {
     transition: 0.3s ease;
 }
 
-.home-page nav a:hover,
-.home-page nav a.active {
+.site-header nav a:hover,
+.site-header nav a.active {
     color: #00e5d0;
 }
 
 
-/* HERO BEREICH */
+/* =========================================
+   2. STARTSEITE – GRUNDLAYOUT
+   ========================================= */
+
+.home-page {
+    margin: 0;
+    background: #05090f;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
 
 .home-page .hero {
     min-height: 760px;
@@ -288,7 +296,9 @@ h2 {
 }
 
 
-/* HINTERGRUND LICHTEFFEKTE */
+/* =========================================
+   3. HINTERGRUND-LICHTEFFEKTE
+   ========================================= */
 
 .home-page .glow {
     position: absolute;
@@ -319,7 +329,9 @@ h2 {
 }
 
 
-/* GESCHWUNGENE LINIEN */
+/* =========================================
+   4. GESCHWUNGENE NEONLINIEN
+   ========================================= */
 
 .home-page .wave-lines {
     position: absolute;
@@ -348,7 +360,9 @@ h2 {
 }
 
 
-/* TEXT */
+/* =========================================
+   5. HERO-TEXT
+   ========================================= */
 
 .home-page .hero-content {
     width: 48%;
@@ -416,7 +430,9 @@ h2 {
 }
 
 
-/* BUTTONS */
+/* =========================================
+   6. HERO-BUTTONS
+   ========================================= */
 
 .home-page .hero-buttons {
     display: flex;
@@ -471,7 +487,9 @@ h2 {
 }
 
 
-/* FOOTER TEXT IM HERO */
+/* =========================================
+   7. HERO-FOOTER
+   ========================================= */
 
 .home-page .hero-footer {
     display: flex;
@@ -486,7 +504,9 @@ h2 {
 }
 
 
-/* BILD */
+/* =========================================
+   8. HAUPTBILD
+   ========================================= */
 
 .home-page .hero-visual {
     position: absolute;
@@ -548,7 +568,9 @@ h2 {
 }
 
 
-/* BILD BESCHRIFTUNG */
+/* =========================================
+   9. BILDBESCHRIFTUNG
+   ========================================= */
 
 .home-page .image-caption {
     position: absolute;
@@ -572,7 +594,9 @@ h2 {
 }
 
 
-/* SCHWEBENDES DJ3 LOGO */
+/* =========================================
+   10. SCHWEBENDES DJ3-ELEMENT
+   ========================================= */
 
 .home-page .floating-text {
     position: absolute;
@@ -613,7 +637,9 @@ h2 {
 }
 
 
-/* UNTERER FARBVERLAUF */
+/* =========================================
+   11. UNTERER FARBVERLAUF
+   ========================================= */
 
 .home-page .bottom-wave {
     position: absolute;
@@ -641,7 +667,7 @@ h2 {
 
 
 /* =========================================
-   TABLET
+   12. TABLET-OPTIMIERUNG
    ========================================= */
 
 @media (max-width: 1000px) {
@@ -669,38 +695,40 @@ h2 {
     .home-page .hero-img {
         height: 350px;
     }
-
 }
 
 
 /* =========================================
-   SMARTPHONE
+   13. SMARTPHONE-OPTIMIERUNG
    ========================================= */
 
 @media (max-width: 650px) {
 
-    .home-page .site-header {
+    /* Globaler Header */
+
+    .site-header {
         flex-direction: column;
         gap: 22px;
-
         padding: 20px 15px;
     }
 
-    .home-page .logo img {
+    .site-header .logo img {
         width: 75px;
     }
 
-    .home-page nav {
+    .site-header nav {
         width: 100%;
         justify-content: center;
-
         gap: 17px;
         flex-wrap: wrap;
     }
 
-    .home-page nav a {
+    .site-header nav a {
         font-size: 13px;
     }
+
+
+    /* Startseite */
 
     .home-page .hero {
         min-height: 900px;
@@ -771,13 +799,15 @@ h2 {
     .home-page .wave-lines {
         opacity: 0.45;
     }
-
 }
 
 
-/* Animationen bei reduzierter Bewegung deaktivieren */
+/* =========================================
+   14. BARRIEREFREIHEIT
+   ========================================= */
 
 @media (prefers-reduced-motion: reduce) {
+
     .home-page *,
     .home-page *::before,
     .home-page *::after {
