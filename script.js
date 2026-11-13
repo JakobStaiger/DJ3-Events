@@ -1,6 +1,6 @@
 // script.js
-const partyStart = new Date(2026, 9, 17, 19, 0, 0).getTime();
-const partyEnd   = new Date(2026, 9, 18, 5, 0, 0).getTime();
+const partyStart = new Date(2026, 11, 31, 19, 0, 0).getTime();
+const partyEnd   = new Date(2026, 11, 1, 5, 0, 0).getTime();
 
 const updateCountdown = setInterval(function() {
   const now = new Date().getTime();
