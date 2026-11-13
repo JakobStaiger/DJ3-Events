@@ -202,7 +202,7 @@ h2 {
     background: rgba(5, 9, 15, 0.92);
     backdrop-filter: blur(15px);
 
-    border-bottom: 3px solid rgba(0, 220, 220, 0.12);
+    border-bottom: 3px solid rgba(0, 220, 220, 0.5);
 }
 
 .site-header .logo img {
