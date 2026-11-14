@@ -232,6 +232,9 @@ h2 {
 /* Logo und Zurück-Button bleiben nebeneinander */
 .site-header.compact-header .logo {
     margin-bottom: 0;
+    width: 180px;
+    height: auto;
+    object-fit: contain;
 }
 
 .site-header.compact-header nav {
