@@ -6,6 +6,7 @@ const translations = {
         archiv: "Archiv",
         kontakt: "Kontakt",
 
+        crew: "PARTY CREW & EQUIPMENT VERLEIH",
         headline: "Wir machen die Party!",
         description: "Egal ob du Equipment suchst oder Ausschau nach einer Party hältst – bei uns wirst du fündig!",
 
@@ -20,6 +21,7 @@ const translations = {
         archiv: "Archive",
         kontakt: "Contact",
 
+        crew: "PARTY CREW & EQUIPMENT RENTAL",
         headline: "We make the party!",
         description: "Whether you're looking for equipment or searching for a party – you've come to the right place!",
 
