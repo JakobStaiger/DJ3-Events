@@ -22,7 +22,8 @@ const translations = {
         kontakt: "Contact",
 
         crew: "PARTY CREW & EQUIPMENT RENTAL",
-        headline: "We make the <span>party!</span>",
+        headline: "We make the
+        <span>party!</span>",
         description: "Whether you're looking for equipment or searching for a party – you've come to the right place!",
 
         events: "Upcoming Events",
