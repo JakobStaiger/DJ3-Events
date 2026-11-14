@@ -807,3 +807,39 @@ h2 {
         transition: none !important;
     }
 }
+
+/* =========================================
+    15. SPRACHWECHSEL
+   ========================================= */
+
+.language-switch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.language-switch button {
+    background: transparent;
+    border: none;
+    padding: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.25s ease;
+}
+
+.language-switch button:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+.language-switch button.active {
+    opacity: 1;
+    filter: drop-shadow(0 0 6px #00e5d0);
+}
+
+.language-divider {
+    color: #00e5d0;
+    opacity: 0.7;
+}

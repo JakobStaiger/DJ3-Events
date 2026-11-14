@@ -6,6 +6,7 @@
     <title>Archiv - Unsere Story</title>
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="style.css">
+    <script src="language.js" defer></script>
 </head>
 <body>
 
@@ -18,12 +19,24 @@
 
      <!-- Navigation -->
         <nav>
-             <a href="index.html">Start</a>
-             <a href="aktuell.html">Aktuell</a>
-             <a href="shop.html">Shop</a>
-             <a href="archiv.html" class="active">Archiv</a>
-             <a href="kontakt.html">Kontakt</a>
+             <a href="index.html" data-i18n="headline">Start</a>
+             <a href="aktuell.html" data-i18n="aktuell">Aktuell</a>
+             <a href="shop.html" data-i18n="shop">Shop</a>
+             <a href="archiv.html" class="active" data-i18n="archiv">Archiv</a>
+             <a href="kontakt.html" data-i18n="kontakt">Kontakt</a>
         </nav>
+
+        <div class="language-switch">
+            <button type="button" data-lang="de" aria-label="Deutsch">
+                🇩🇪
+            </button>
+
+            <span class="language-divider">|</span>
+
+            <button type="button" data-lang="en" aria-label="English">
+                🇬🇧
+            </button>
+        </div>
 
     </header>
 
