@@ -222,6 +222,22 @@ h2 {
     color: #00e5d0;
 }
 
+/* Kompakter Header für Unterseiten */
+.site-header.compact-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo und Zurück-Button bleiben nebeneinander */
+.site-header.compact-header .logo {
+    margin-bottom: 0;
+}
+
+.site-header.compact-header nav {
+    flex-direction: row;
+    align-items: center;
+}
 
 /* =========================================
    2. STARTSEITE – GRUNDLAYOUT
