@@ -103,6 +103,11 @@ h2 {
     background-color: #333; /* Dunkelgrau für GitHub */
 }
 
+/* Telefon-Button */
+.telefon {
+    background: linear-gradient(45deg, #3498db, #217dbb);
+}
+
 /* Richtet Logo und Text waagerecht aus und macht Abstand dazwischen */
 .social-btn {
     display: inline-flex;
